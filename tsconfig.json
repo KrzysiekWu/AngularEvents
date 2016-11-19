@@ -1,0 +1,19 @@
+{
+  "COMMENT": "tsconfig.json defines how the TypeScript compiler generates JavaScript from the project's files.",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+	"outDir": "target"
+  },
+  "compileOnSave": true,
+  "exclude": [
+    "node_modules/*"
+  ]
+}

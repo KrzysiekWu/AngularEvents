@@ -1,0 +1,5 @@
+<li *ngFor="let event of events" (click)="onClick(event)" [class.selected]="event === selectedevent">
+    {{event.id}}. <b>{{event.title}}</b> - {{event.content}}
+</li>
+
+<details-component [event]="selectedEvent"></details-component>

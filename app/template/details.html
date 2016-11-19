@@ -1,0 +1,9 @@
+<div *ngIf="event" style="margin: 50px;">
+    {{event.id}}. {{event.title}}
+    <br/>
+    <i>{{event.content}}</i>
+    <hr/>
+
+    <input [(ngModel)]="event.title" placeholder="title"/><br/>
+    <textarea [(ngModel)]="event.content" placeholder="content"></textarea>
+</div>
